@@ -12,7 +12,7 @@ Feature: To validate the patient registration with multiple sets of data
     And clicks on startOPD button
     Examples:
     | firstname | lastname | gender | age |
-    | prashanth | sam      | Male   | 23  |
-    | chandrika | dada     | Female | 34  |
-    | mehedi    | adada    |  Male  | 34  |
+    | Prashanth | Sam      | Male   | 23  |
+    | Chandrika | Dada     | Female | 34  |
+    | Mehedi    | Adada    |  Male  | 34  |
     | Sushma    | Y        | Female | 30  |

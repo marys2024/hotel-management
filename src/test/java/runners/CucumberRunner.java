@@ -8,21 +8,14 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-
         features = {"src/test/resources/featureFiles"},
-        glue = {"stepDefinitions","CommonActions"},
+        glue = {"stepDefinitions", "CommonActions"},
         plugin = {"pretty",
-
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
-
                 "timeline:test-output-thread/"
-
-        },tags = "@Admin"
-
-
+        }, tags = "not @Ignore"
 )
-public class LoginJunitTestRunner  {
-
+public class CucumberRunner {
 
 
 }

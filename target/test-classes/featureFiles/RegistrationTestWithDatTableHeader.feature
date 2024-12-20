@@ -9,5 +9,5 @@ Feature: To validate the patient registration
     And user click on registration button on home screen
     And user clicks on create new button
     And user enters patient data as below
-    | Prashanth | samudrala | Male | 23 |
+    | Reena | John | Female | 23 |
     And clicks on startOPD button

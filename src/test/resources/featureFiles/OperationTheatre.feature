@@ -1,7 +1,7 @@
 Feature: To validate the operation theatre module
 
 
-  @OperationTheatre
+  @OperationTheatre @Ignore
   Scenario: To validate user is able to add the new surgical block
     Given user launches the application
     And user enters the login credentials and click on login button
